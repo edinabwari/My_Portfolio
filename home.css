@@ -1,0 +1,128 @@
+body{
+    background-color: rgb(16, 16, 16);
+    height: 100%;
+    overflow: hidden;
+}
+p{
+    color: white;
+    font-size: 22px;
+    background-color: black;
+    height: 100%;
+    overflow: hidden;
+}
+li{
+    display:inline;
+}
+
+li a{
+    padding: 10vh;
+    font-size: 4vh;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+#row{
+    display: flex;
+}
+#column{
+    border-style: solid;
+    border-color:transparent;
+    border-radius: 15px;
+    margin: 0px 10px;
+    padding:25px;
+    flex:40%;
+    height: 70vh;
+}
+#description{
+    padding: 15px;    
+}
+#description h1{
+    color: white;    
+}
+#description h2{
+    color: white;
+
+}
+ #description li{
+    color: white;
+    display: block;
+    list-style-type: none;
+    font-family:monospace;
+    font-size:3vh;
+    margin: 5px;
+}/*
+#social-media-handles{
+    padding: 5px;
+}
+
+h3 {
+    padding: 10px;
+    color: white;
+    font-size: 22px;
+    font-family: monospace;
+}
+#name p{
+    
+    padding: 15px;
+    font-family: monospace;
+    font-size: 5vh;
+}
+h3 p{
+    padding: 15px;
+    font-size: 20px;
+}*/
+
+
+
+#row{
+    display: flex;
+}
+#column{
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 15px;
+    margin: 0px 10px;
+    padding:25px;
+    flex:40%;
+    height: 70vh; 
+}
+h3 {
+    color: white;
+    font-size: 12px;
+    font-family: monospace;
+}
+#hello-hand{
+    display: inline-block;
+    animation-name: hand;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+
+}
+@keyframes hand{
+    0% { transform: rotate( 0.0deg) }
+
+   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+
+   10% { transform: rotate(14.0deg) } 
+
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+
+   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+
+   60% { transform: rotate( 0.0deg) }  
+
+  100% { transform: rotate( 0.0deg) }
+}
+
+
+
+
+#copyright{
+    font-family: monospace;
+    margin: 15px;
+    color: white;
+}
