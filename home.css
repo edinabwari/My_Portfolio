@@ -50,7 +50,7 @@ li a{
     font-family:monospace;
     font-size:3vh;
     margin: 5px;
-}/*
+}
 #social-media-handles{
     padding: 5px;
 }
@@ -70,7 +70,7 @@ h3 {
 h3 p{
     padding: 15px;
     font-size: 20px;
-}*/
+}
 
 
 
@@ -88,8 +88,8 @@ h3 p{
 }
 .circle-frame {
     position: relative;
-    width: 450px; /* Adjust as needed */
-    height: 450px; /* Adjust as needed */
+    width: 450px; 
+    height: 450px; 
     border-radius: 50%;
     overflow: hidden;
   }
@@ -114,26 +114,16 @@ h3 {
 }
 @keyframes hand{
     0% { transform: rotate( 0.0deg) }
-
-   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
-
    10% { transform: rotate(14.0deg) } 
-
+   10% { transform: rotate(14.0deg) } 
    20% { transform: rotate(-8.0deg) }
    30% { transform: rotate(14.0deg) }
    40% { transform: rotate(-4.0deg) }
    50% { transform: rotate(10.0deg) }
-
-   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
-
    60% { transform: rotate( 0.0deg) }  
-
+   60% { transform: rotate( 0.0deg) } 
   100% { transform: rotate( 0.0deg) }
 }
-
-
-
-
 #copyright{
     font-family: monospace;
     margin: 15px;
