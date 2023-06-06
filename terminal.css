@@ -76,8 +76,8 @@ li a{
 }
 
 #copyright{
-    color: black;
     font-family: monospace;
-    letter-spacing: 3px;
+    margin: 15px;
+    color: black;
     
 }
