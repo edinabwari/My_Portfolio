@@ -203,9 +203,9 @@ b:["Designed a data quality assurance process for waste sorting data across mult
 s:["Data QA","Field sampling","Reporting"]},
 
 
-{t:"Thyroid Recurrence Risk Model",c:"AI",d:"Healthcare",
-b:["Cleaned clinical data, handled missing values, normalised inputs","Logistic regression predicts recurrence from patient demographics","Predictive output supports timely clinical decisions"],
-s:["Python","Logistic regression","Pandas"],demo:"#",code:"https://github.com/your-username/thyroid-model"},
+{t:"Thyroid Cancer Recurrence Risk Prediction",c:"AI",d:"Healthcare",
+b:["Patient-level dataset analysis covering 383 records and 17 clinical and demographic variables", "Data quality assessment, missing-value checks and categorical data preprocessing", "Exploratory data analysis with visualisations of patient characteristics, cancer stages, treatment responses and recurrence patterns", "Chi-square statistical tests to examine associations between clinical and demographic variables and recurrence", "Logistic Regression classification model for thyroid cancer recurrence prediction", "Model evaluation: 93.91% accuracy, 97.52% ROC-AUC, 93% recurrence precision and 84% recurrence recall", "Trained model saved using Joblib", "Streamlit-based prediction interface prototype for generating model predictions"],
+s:["Python", "Pandas", "Data Cleaning", "Statistical Analysis", "Data Visualisation", "Exploratory Data Analysis (EDA)","Logistic regression"],demo:"#",code:"https://github.com/edinabwari/Thyroid_prediction_logistic_regression/blob/main/Thyriod_logistic_regression.ipynb"},
 
 
 {t:"Tuzungumze Therapy Website",c:"Web",d:"Mental health",
@@ -226,11 +226,17 @@ s:["Java","XML","Android Studio","ML"],demo:"#",code:"https://github.com/your-us
 var extra=[
 {ctx:"Improving the accuracy of waste sorting data across multiple sites so decisions rest on numbers people can trust.",
  prob:"Waste sorting data from different sites was inconsistent, which made reports hard to rely on. The project set out to find where the data went wrong, correct it, and give staff one standard way to collect it."},
-{ctx:"Predicting thyroid cancer recurrence from patient demographics to support earlier, better-informed care.",prob:"Providers need to know which patients are more likely to see their cancer return so follow-up can happen on time. Clinical records are messy, with missing values and mixed scales, so the data had to be made usable before any modelling.",fig:true,figNote:"Graph placeholder: model results or ROC curve"},
-{ctx:"A web platform that makes mental health support easier for students to reach.",
+
+ {ctx:"Context: Healthcare research · Nyeri County Referral Hospital · 383 patient records · 17 clinical and demographic variables  · Synthetic data for patient privacy.",
+ prob:"Understanding and identifying factors associated with thyroid cancer recurrence requires analysing patient demographics and clinical characteristics. Reviewing these patterns manually can make it difficult to identify relationships between patient characteristics and recurrence outcomes. The project explored how statistical analysis and predictive modelling could help identify recurrence patterns and support evidence-based clinical research."
+ ,fig:true,figNote:"Graph placeholder: model results or ROC curve"},
+
+ {ctx:"A web platform that makes mental health support easier for students to reach.",
 prob:"Access and confidentiality are common barriers for students who need mental health support. This platform gives them a private, easy-to-use place to ask for help, and usage feedback guided improvements."},
+
 {ctx:"Connecting students with internship opportunities and tracking what happens next.",
 prob:"Matching students to internships and following up on placements is hard without one shared system. This platform brings both into one place and produces monthly impact reports."},
+
 {ctx:"A mobile app that helps smallholder farmers diagnose tomato plant diseases on the spot.",
 prob:"Farmers who spot a plant disease late risk losing their crop, and expert advice is not always nearby. The app classifies a photo of the plant and returns clear next steps."}
 ];
